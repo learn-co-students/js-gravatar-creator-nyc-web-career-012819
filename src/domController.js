@@ -1,3 +1,6 @@
-function updateDOM() {
+document.addEventListener('DOMContentLoaded', function(){
 
-}
+  function updateDOM() {
+  }
+  
+})
