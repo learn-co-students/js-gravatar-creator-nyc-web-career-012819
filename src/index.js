@@ -1,5 +1,6 @@
 function handleSubmit(e) {
-
+  e.preventDefault()
+  updateDOM()
 }
 
 document.addEventListener("DOMContentLoaded", () => {

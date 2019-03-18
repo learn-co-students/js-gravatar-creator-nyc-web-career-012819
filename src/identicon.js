@@ -1,3 +1,13 @@
 class Identicon {
-  // make use of the md5.array method, which is in scope because we required it in our index.html
+  constructor(string) {
+    this._md5Array = md5.array(string)
+  }
+
+  get values() {
+    return this._md5Array
+  }
+
+  rehash(string) {
+    this._md5Array = md5.array(string)
+  }
 }
